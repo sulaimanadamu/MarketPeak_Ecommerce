@@ -4,4 +4,6 @@
 - created a directory for the app souce code
 - initiated a git local repository ` git init `
 - downloaded the a website template which is zipped and have to unzip it `unzip file_name `
+- Create a remote repository on Github and connect with ` git remote add origin <repository URL> `
 - stage and commit the downloaded template.
+
