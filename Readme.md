@@ -105,8 +105,19 @@ the above picture show for HTTP.
  
  lets go!
 
- 
+To better simulate this i made some changes on my vscode terminal to the global repo
+![local changes](./images/local-system-changes.png)
 
+pull the changes on mobaXterm.
+
+![pulling changes](./images/pulling-changes.png)
+
+i noticed that for folders within the /var/www/html are displayed in the absence of an index to html.
+making cloning lesser of a good decision cause cloning will transfer the full folder there which can't
+be opened unless we click it. i tried going around and end up using a temporary solution 
+`  sudo cp -r * /var/www/html && sudo cp -r /var/www/html/templatemo_571_hexashop/*  /var/www/html/ `
+it copy the file after pulling to the /var/www/html and at that point remove all the files in the files in the 
+hexashop into the /html/ directory.
 
 
 
